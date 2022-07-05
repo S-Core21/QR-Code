@@ -1,0 +1,38 @@
+.con {
+  width: 20%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(212, 45%, 89%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+img {
+  width: 100%;
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+.two,
+p {
+  padding: 10px;
+  text-align: center;
+}
+@media screen and (max-width: 420px) {
+    .con {
+        width: 80%;
+      } 
+      body {
+        width: 100%;
+      }
+}
